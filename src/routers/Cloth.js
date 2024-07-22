@@ -1,12 +1,12 @@
-
+import CardSlider from "../components/CardSlider";
 
 const Cloth = () =>{
   return(
   <div>
-cloth
 
+<CardSlider/>
   </div>
   )
-}
+};
 
-export default Cloth
+export default Cloth;

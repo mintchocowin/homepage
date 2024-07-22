@@ -8,15 +8,12 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle =createGlobalStyle`
 
- @font-face {
-  font-family: "aaaiight";
-  font-weight: normal;
-  src: url("./font/aaaiight.ttf") format("truetype");
-}
+@font-face {
+font-family:"aaaiight"
+src: url("./font/aaaiight.ttf?iefix")format("treutype")}
 
-
-body {
- font-family: "aaaiight" sans-serif;
+body{
+font-family:"aaaiight"
 }
 
 *{
@@ -24,7 +21,6 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 background:lavender;
- 
 }
 
 a{
