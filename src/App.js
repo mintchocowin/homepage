@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Menu from './components/Menu';
 import Home from './routers/Home';
 import Cloth from './routers/Cloth';
-import Map from "./routers/Map";
+import Review from "./routers/Review";
 import Food from "./routers/Food";
 import Photo from "./routers/Photo";
 
@@ -24,7 +24,7 @@ function App() {
      <Menu/>
      <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/map" element={<Map/>}/>
+        <Route path="/review" element={<Review/>}/>
         <Route path="/cloth" element={<Cloth/>}/>
         <Route path="/food" element={<Food/>}/>
         <Route path="/photo" element={<Photo/>}/>

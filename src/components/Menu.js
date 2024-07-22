@@ -28,11 +28,11 @@ background:#fff;
 const Menu = () =>{
   return (
     <Container>
-      <Navs>
-        <Link to="/map"><Nav>Map</Nav></Link>
-        <Link to ="/food"><Nav>food</Nav></Link>
-        <Link to="/cloth"><Nav>cloth</Nav></Link>
-        <Link to="/photo"><Nav>photo</Nav></Link>
+      <Navs>     
+        <Link to ="/food"><Nav>Food</Nav></Link>
+        <Link to="/cloth"><Nav>Cloth</Nav></Link>
+        <Link to="/review"><Nav>Review</Nav></Link>
+        <Link to="/photo"><Nav>Photo</Nav></Link>
       </Navs>
     </Container>
   )

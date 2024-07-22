@@ -1,8 +1,10 @@
+import CardSlider from "../components/CardSlider";
+
 const Photo = () =>{
   return(
 
   <div>
-photo
+<CardSlider/>
   </div>
   )
 }
